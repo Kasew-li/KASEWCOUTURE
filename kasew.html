@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+        kasew.html
+        Kasew / Thời Trang May Đo - Thiết Kế
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Thời Trang May Đo - Thiết Kế">
+    <title>Kasew</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="kasew_layout.css"> 
+    <link rel="stylesheet" href="kasew_styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="kasew.html" class="navbar_link">
+            <span class="material-icons">home</span>Home
+        </a>
+        <a href="ka_about.html" class="navbar_link">
+            <span class="material-icons">sentiment_satisfied_alt</span>About
+        </a>
+        <a href="kasew_pictures.html" class="navbar_link">
+            <span class="material-icons">photo_library</span>Gallery
+        </a>
+       
+        <a href="kasew_contact.html" class="navbar_link">
+            <span class="material-icons">contacts</span>Contacts
+        </a>
+    </div>
+
+    <script>
+        function toggleNav() {
+            document.querySelector(".navbar").classList.toggle("navbar--open")
+        }
+    </script>
+    
+    <div class="row">
+        <div class="col-1-1">
+            <div class="text-content">
+                <div>
+                    <h1>Welcome to Kasew</h1>
+                    <h2>Thời Trang May Đo - Thiết Kế</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-1-3">
+            <img src="img/ka_new14.jpg" alt="">
+        </div>
+        <div class="col-1-3">
+            <img src="img/dress.png" alt="">
+        </div>
+        <div class="col-1-3">
+            <img src="img/kasew_about3.jpg" alt="">
+        </div>
+        
+        <div class="row">
+            <div class="col-1-1">
+                <div class="text-content">
+                    <div>
+                        <button type="button" onclick="toggleNav()">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="row">
+            <footer>
+                Số 21A &nbsp; đường 1c &hearts; phường Bình Hưng Hoà A &hearts; quận Bình Tân
+            </footer>
+        </div>
+
+</body>
+</html>
